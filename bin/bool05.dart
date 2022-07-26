@@ -7,10 +7,10 @@
         bool
     */
 bool func(int a) {
-  return a % 2 == 0;
+  return a % 2 == 1;
 }
 
 void main() {
-  bool w = func(8);
+  bool w = func(9);
   print(w);
 }
