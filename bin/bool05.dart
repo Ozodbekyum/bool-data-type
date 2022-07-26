@@ -6,5 +6,11 @@
     Returns:
         bool
     */
+bool func(int a) {
+  return a % 10 == 0;
+}
 
-void main() {}
+void main() {
+  bool w = func(3);
+  print(w);
+}
